@@ -5,7 +5,6 @@
 }
 h1,h2,header,footer,main,nav{
     
-    /* font-family: 'Urbanist', sans-serif;   */
     font-family: 'Open Sans', sans-serif; 
 }    
 
@@ -161,8 +160,6 @@ textarea {
     background-color:rgb(134, 19, 94);
 }
 
-
-
 .formulario{
     border-radius: 5px;
     background-color:#F2F2F0;
@@ -196,7 +193,7 @@ ul{
   }
 
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout - se transforma en 2 columnas */
   @media screen and (max-width: 768px) {
     .column {
       flex: 50%;
@@ -204,7 +201,7 @@ ul{
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* Responsive layout - apila las dos columnas en una */
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
@@ -236,9 +233,3 @@ ul{
   }
 
    
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .navbar {
-        flex-direction: column;
-    }
-  }
